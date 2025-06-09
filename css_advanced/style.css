@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans 3", sans-serif;
+  /* font-family: "poppins", sans-serif; */
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+nav ul {
+  display: inline-flex;
+  gap: 52px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.school {
+  background-image: url(images/Object.png);
+  width: 100%;
+  height: 1093px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+  color: #fff;
+}
+
+#school {
+  padding-top: 150px;
+  text-align: center;
+}
+#school h1 {
+  font-size: 120px;
+  font-weight: 700;
+  /* text-align: center; */
+}
+
+.pro {
+  display: inline-flex;
+  gap: 150px;
+  text-align: center;
+}
+
+.pro img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#learn {
+  padding-top: 160px;
+  text-align: center;
+}
+
+#learn h2 {
+  padding-bottom: 100px;
+}
+
+button {
+  padding: 16px 16px;
+  background: #c271ff;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0px;
+  box-shadow: 0 2px 20px rgb(0, 0, 0, 0.5);
+}
