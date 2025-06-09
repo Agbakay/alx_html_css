@@ -90,3 +90,126 @@ button {
   border: 0px;
   box-shadow: 0 2px 20px rgb(0, 0, 0, 0.5);
 }
+
+/* 3. Quotes */
+
+.quote {
+  background: #c271ff;
+  display: flex;
+  padding: 30px 150px;
+  gap: 20px;
+  justify-content: space-evenly;
+  color: #fff;
+  align-items: center;
+}
+
+.video {
+  margin: 100px 0;
+}
+
+.list {
+  display: flex;
+  padding: 0 80px;
+}
+
+.list .rating {
+  display: flex;
+  color: #c271ff;
+}
+
+.rating p {
+  margin-left: 40px;
+}
+
+#avatar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#avatar img {
+  width: 30px;
+}
+
+.tuto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 20px;
+}
+
+.video h2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Membership */
+
+#membership {
+  background: #071629;
+  color: #fff;
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.free {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.free div {
+  text-align: center;
+  gap: 20px;
+}
+
+/* FAQ */
+
+#faq {
+  padding: 100px 180px;
+}
+
+#faq h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.faq {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.faq div h3 {
+  padding-bottom: 30px;
+}
+
+/* Fo0ter */
+
+footer {
+  background: #071629;
+  width: 100%;
+  height: 250px;
+  color: #fff;
+}
+
+footer section div {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+footer section p {
+  text-align: center;
+}
+
+.brands {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
