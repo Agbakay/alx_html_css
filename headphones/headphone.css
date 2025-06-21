@@ -1,0 +1,222 @@
+* {
+  font-family: "poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url(images/headphones_hero_1.jpg);
+}
+
+.nav-bar {
+  padding: 30px 50px;
+}
+
+.nav-bar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar nav ul {
+  display: inline-flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar ul li {
+  list-style: none;
+}
+
+.nav-bar nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #ff6565;
+  transition: ease 0.5s;
+  border-bottom: 1px solid #ff6565;
+  padding-bottom: 10px;
+}
+
+.sub-text {
+  width: 800px;
+}
+
+.sub-text h1 {
+  font-size: 32px;
+}
+
+.sub-text h4 {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 50px 0;
+}
+
+.btn a {
+  padding: 12px 30px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ff6565;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+.btn a:hover {
+  color: #ff6565;
+  background: #fff;
+}
+
+.header-text {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-text .sub-text h1 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "inter", sans-serif;
+  padding-bottom: 10px;
+}
+
+/* Features */
+
+.features {
+  margin: 100px 0;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.features-top p {
+  font-size: 16px;
+  padding: 0 200px;
+  line-height: 1.5rem;
+}
+
+.features .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding-top: 140px;
+}
+
+.row .music img {
+  padding-bottom: 50px;
+}
+
+.park {
+  background: url(images/headphones_hero_2.jpg);
+  /* width: 100%; */
+  /* height: 70vh; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.park-tab .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  padding: 50px 200px;
+  height: 20vh;
+  gap: 20px;
+}
+
+.park-tab .row .col {
+  background: url(images/pentagone.png) no-repeat;
+  padding: 50px;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.park-tab .text {
+  text-align: center;
+  padding: 100px 300px 50px 300px;
+}
+
+.park-tab .text p {
+  line-height: 1.5rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.col p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.contact-us {
+  padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-tab form input {
+  outline: none;
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #242424;
+  margin: 15px 0;
+}
+
+textarea {
+  border: none;
+  border-bottom: 2px solid #242424;
+}
+
+form input:last-child {
+  border: none;
+  height: 50px;
+  background: #ff6565;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+footer {
+  background: #071629;
+  padding: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
